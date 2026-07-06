@@ -1,0 +1,15 @@
+{
+  "in_dist": {
+    "scene": "in_dist",
+    "algo": "ppo",
+    "reward_cfg": "balanced",
+    "seed": 42,
+    "n_episodes": 1,
+    "collision_rate": 0.0,
+    "mean_speed": 20.93,
+    "mean_lc": 0.0,
+    "success_rate": 1.0,
+    "mean_reward": 0.56,
+    "std_reward": 0.0
+  }
+}

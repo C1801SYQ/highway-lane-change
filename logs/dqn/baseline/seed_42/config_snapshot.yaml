@@ -1,5 +1,5 @@
 algo: DQN
-best_mean_reward: -.inf
+best_mean_reward: 7.49
 hyperparams:
   batch_size: 64
   buffer_size: 50000
@@ -17,5 +17,5 @@ hyperparams:
 policy: MlpPolicy
 reward_cfg: baseline
 seed: 42
-total_steps: 1000
+total_steps: 50000
 use_grayscale: false

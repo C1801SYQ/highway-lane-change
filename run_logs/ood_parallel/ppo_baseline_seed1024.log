@@ -1,0 +1,265 @@
+
+==================================================
+[Eval] algo=ppo reward=baseline seed=1024 scene=in_dist
+==================================================
+[WARNING] GrayscaleImage not available, falling back to OccupancyGrid.
+  Ep   0: R=   84.0 spd= 20.5 lc= 2 crash=no
+  Ep   1: R=   83.8 spd= 20.4 lc=54 crash=no
+  Ep   2: R=   82.8 spd= 20.1 lc=45 crash=no
+  Ep   3: R=   83.8 spd= 20.4 lc= 6 crash=no
+  Ep   4: R=   83.6 spd= 20.4 lc=18 crash=no
+  Ep   5: R=   87.7 spd= 21.5 lc=18 crash=no
+  Ep   6: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep   7: R=   83.6 spd= 20.4 lc=36 crash=no
+  Ep   8: R=   84.3 spd= 20.5 lc= 2 crash=no
+  Ep   9: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  10: R=   82.6 spd= 20.1 lc=23 crash=no
+  Ep  11: R=   83.7 spd= 20.4 lc=37 crash=no
+  Ep  12: R=   82.9 spd= 20.2 lc= 2 crash=no
+  Ep  13: R=   84.2 spd= 20.5 lc= 1 crash=no
+  Ep  14: R=   10.2 spd= 21.5 lc= 7 crash=YES
+  Ep  15: R=   86.7 spd= 21.2 lc= 1 crash=no
+  Ep  16: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep  17: R=    4.5 spd= 24.9 lc= 6 crash=YES
+  Ep  18: R=   82.8 spd= 20.1 lc= 0 crash=no
+  Ep  19: R=   82.6 spd= 20.1 lc=37 crash=no
+  Ep  20: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep  21: R=   84.4 spd= 20.6 lc=52 crash=no
+  Ep  22: R=   84.4 spd= 20.6 lc= 1 crash=no
+  Ep  23: R=   83.8 spd= 20.4 lc= 1 crash=no
+  Ep  24: R=   84.4 spd= 20.6 lc=31 crash=no
+  Ep  25: R=   85.3 spd= 20.8 lc= 4 crash=no
+  Ep  26: R=   21.9 spd= 22.8 lc=15 crash=YES
+  Ep  27: R=   82.8 spd= 20.1 lc= 3 crash=no
+  Ep  28: R=   84.0 spd= 20.5 lc= 0 crash=no
+  Ep  29: R=   83.7 spd= 20.4 lc= 6 crash=no
+  Ep  30: R=   85.7 spd= 20.9 lc=25 crash=no
+  Ep  31: R=   82.8 spd= 20.1 lc= 5 crash=no
+  Ep  32: R=   85.0 spd= 20.7 lc=38 crash=no
+  Ep  33: R=   82.6 spd= 20.1 lc=33 crash=no
+  Ep  34: R=   84.2 spd= 20.5 lc=22 crash=no
+  Ep  35: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  36: R=   82.8 spd= 20.1 lc=15 crash=no
+  Ep  37: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  38: R=   83.7 spd= 20.4 lc=36 crash=no
+  Ep  39: R=   84.5 spd= 20.6 lc= 4 crash=no
+  Ep  40: R=   83.0 spd= 20.2 lc= 2 crash=no
+  Ep  41: R=   82.6 spd= 20.1 lc=65 crash=no
+  Ep  42: R=   82.8 spd= 20.1 lc= 0 crash=no
+  Ep  43: R=   84.6 spd= 20.6 lc= 0 crash=no
+  Ep  44: R=    8.3 spd= 21.8 lc= 7 crash=YES
+  Ep  45: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  46: R=   82.9 spd= 20.2 lc= 0 crash=no
+  Ep  47: R=   82.8 spd= 20.1 lc= 0 crash=no
+  Ep  48: R=   86.0 spd= 21.0 lc=40 crash=no
+  Ep  49: R=    6.5 spd= 24.9 lc= 7 crash=YES
+
+[WARNING] Reward Hacking detected in scene=in_dist: 5 flags
+  - Ep 6: IDLE (ratio=0.970>0.95)
+  - Ep 9: IDLE (ratio=0.960>0.95)
+  - Ep 12: IDLE (ratio=0.960>0.95)
+  - Ep 35: IDLE (ratio=0.980>0.95)
+  - Ep 37: IDLE (ratio=0.960>0.95)
+  → Report saved to ./logs/ppo/baseline/seed_1024/hacking_report_in_dist.json
+  => CR=0.100 Spd=20.7 LC=14.3 SR=0.900 R=76.4±22.1
+
+==================================================
+[Eval] algo=ppo reward=baseline seed=1024 scene=lane_closure
+==================================================
+[WARNING] GrayscaleImage not available, falling back to OccupancyGrid.
+  Ep   0: R=   84.0 spd= 20.5 lc= 2 crash=no
+  Ep   1: R=   83.8 spd= 20.4 lc=54 crash=no
+  Ep   2: R=   82.8 spd= 20.1 lc=45 crash=no
+  Ep   3: R=   83.8 spd= 20.4 lc= 6 crash=no
+  Ep   4: R=   83.6 spd= 20.4 lc=18 crash=no
+  Ep   5: R=   87.7 spd= 21.5 lc=18 crash=no
+  Ep   6: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep   7: R=   83.6 spd= 20.4 lc=36 crash=no
+  Ep   8: R=   84.3 spd= 20.5 lc= 2 crash=no
+  Ep   9: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  10: R=   82.6 spd= 20.1 lc=23 crash=no
+  Ep  11: R=   83.7 spd= 20.4 lc=37 crash=no
+  Ep  12: R=   82.9 spd= 20.2 lc= 2 crash=no
+  Ep  13: R=   84.2 spd= 20.5 lc= 1 crash=no
+  Ep  14: R=   10.2 spd= 21.5 lc= 7 crash=YES
+  Ep  15: R=   86.7 spd= 21.2 lc= 1 crash=no
+  Ep  16: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep  17: R=    4.5 spd= 24.9 lc= 6 crash=YES
+  Ep  18: R=   82.8 spd= 20.1 lc= 0 crash=no
+  Ep  19: R=   82.6 spd= 20.1 lc=37 crash=no
+  Ep  20: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep  21: R=   84.4 spd= 20.6 lc=52 crash=no
+  Ep  22: R=   84.4 spd= 20.6 lc= 1 crash=no
+  Ep  23: R=   83.8 spd= 20.4 lc= 1 crash=no
+  Ep  24: R=   84.4 spd= 20.6 lc=31 crash=no
+  Ep  25: R=   85.3 spd= 20.8 lc= 4 crash=no
+  Ep  26: R=   21.9 spd= 22.8 lc=15 crash=YES
+  Ep  27: R=   82.8 spd= 20.1 lc= 3 crash=no
+  Ep  28: R=   84.0 spd= 20.5 lc= 0 crash=no
+  Ep  29: R=   83.7 spd= 20.4 lc= 6 crash=no
+  Ep  30: R=   85.7 spd= 20.9 lc=25 crash=no
+  Ep  31: R=   82.8 spd= 20.1 lc= 5 crash=no
+  Ep  32: R=   85.0 spd= 20.7 lc=38 crash=no
+  Ep  33: R=   82.6 spd= 20.1 lc=33 crash=no
+  Ep  34: R=   84.2 spd= 20.5 lc=22 crash=no
+  Ep  35: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  36: R=   82.8 spd= 20.1 lc=15 crash=no
+  Ep  37: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  38: R=   83.7 spd= 20.4 lc=36 crash=no
+  Ep  39: R=   84.5 spd= 20.6 lc= 4 crash=no
+  Ep  40: R=   83.0 spd= 20.2 lc= 2 crash=no
+  Ep  41: R=   82.6 spd= 20.1 lc=65 crash=no
+  Ep  42: R=   82.8 spd= 20.1 lc= 0 crash=no
+  Ep  43: R=   84.6 spd= 20.6 lc= 0 crash=no
+  Ep  44: R=    8.3 spd= 21.8 lc= 7 crash=YES
+  Ep  45: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  46: R=   82.9 spd= 20.2 lc= 0 crash=no
+  Ep  47: R=   82.8 spd= 20.1 lc= 0 crash=no
+  Ep  48: R=   86.0 spd= 21.0 lc=40 crash=no
+  Ep  49: R=    6.5 spd= 24.9 lc= 7 crash=YES
+
+[WARNING] Reward Hacking detected in scene=lane_closure: 5 flags
+  - Ep 6: IDLE (ratio=0.970>0.95)
+  - Ep 9: IDLE (ratio=0.960>0.95)
+  - Ep 12: IDLE (ratio=0.960>0.95)
+  - Ep 35: IDLE (ratio=0.980>0.95)
+  - Ep 37: IDLE (ratio=0.960>0.95)
+  → Report saved to ./logs/ppo/baseline/seed_1024/hacking_report_lane_closure.json
+  => CR=0.100 Spd=20.7 LC=14.3 SR=0.900 R=76.4±22.1
+
+==================================================
+[Eval] algo=ppo reward=baseline seed=1024 scene=sudden_brake
+==================================================
+[WARNING] GrayscaleImage not available, falling back to OccupancyGrid.
+  Ep   0: R=   84.0 spd= 20.5 lc= 2 crash=no
+  Ep   1: R=   83.8 spd= 20.4 lc=54 crash=no
+  Ep   2: R=   82.8 spd= 20.1 lc=45 crash=no
+  Ep   3: R=   83.8 spd= 20.4 lc= 6 crash=no
+  Ep   4: R=   83.6 spd= 20.4 lc=18 crash=no
+  Ep   5: R=   90.4 spd= 22.2 lc=33 crash=no
+  Ep   6: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep   7: R=   83.6 spd= 20.4 lc=36 crash=no
+  Ep   8: R=   84.3 spd= 20.5 lc= 2 crash=no
+  Ep   9: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  10: R=   82.6 spd= 20.1 lc=23 crash=no
+  Ep  11: R=   83.7 spd= 20.4 lc=37 crash=no
+  Ep  12: R=   82.9 spd= 20.2 lc= 2 crash=no
+  Ep  13: R=   84.2 spd= 20.5 lc= 1 crash=no
+  Ep  14: R=   10.2 spd= 21.5 lc= 7 crash=YES
+  Ep  15: R=   86.7 spd= 21.2 lc= 1 crash=no
+  Ep  16: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep  17: R=    4.5 spd= 24.9 lc= 6 crash=YES
+  Ep  18: R=   82.8 spd= 20.1 lc= 0 crash=no
+  Ep  19: R=   82.6 spd= 20.1 lc=37 crash=no
+  Ep  20: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep  21: R=   84.4 spd= 20.6 lc=52 crash=no
+  Ep  22: R=   84.4 spd= 20.6 lc= 1 crash=no
+  Ep  23: R=   83.8 spd= 20.4 lc= 1 crash=no
+  Ep  24: R=   84.4 spd= 20.6 lc=31 crash=no
+  Ep  25: R=   85.3 spd= 20.8 lc= 4 crash=no
+  Ep  26: R=   21.9 spd= 22.8 lc=15 crash=YES
+  Ep  27: R=   82.8 spd= 20.1 lc= 3 crash=no
+  Ep  28: R=   84.0 spd= 20.5 lc= 0 crash=no
+  Ep  29: R=   83.7 spd= 20.4 lc= 6 crash=no
+  Ep  30: R=   41.5 spd= 21.6 lc= 3 crash=YES
+  Ep  31: R=   82.8 spd= 20.1 lc= 5 crash=no
+  Ep  32: R=   85.0 spd= 20.7 lc=38 crash=no
+  Ep  33: R=   82.6 spd= 20.1 lc=33 crash=no
+  Ep  34: R=   84.2 spd= 20.5 lc=22 crash=no
+  Ep  35: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  36: R=   82.8 spd= 20.1 lc=15 crash=no
+  Ep  37: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  38: R=   83.7 spd= 20.4 lc=52 crash=no
+  Ep  39: R=   84.5 spd= 20.6 lc= 4 crash=no
+  Ep  40: R=   83.0 spd= 20.2 lc= 2 crash=no
+  Ep  41: R=   82.6 spd= 20.1 lc=97 crash=no
+  Ep  42: R=   82.8 spd= 20.1 lc= 0 crash=no
+  Ep  43: R=   84.6 spd= 20.6 lc= 0 crash=no
+  Ep  44: R=    8.3 spd= 21.8 lc= 7 crash=YES
+  Ep  45: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  46: R=   82.9 spd= 20.2 lc= 0 crash=no
+  Ep  47: R=   82.8 spd= 20.1 lc= 0 crash=no
+  Ep  48: R=   86.0 spd= 21.0 lc=40 crash=no
+  Ep  49: R=    6.5 spd= 24.9 lc= 7 crash=YES
+
+[WARNING] Reward Hacking detected in scene=sudden_brake: 6 flags
+  - Ep 6: IDLE (ratio=0.970>0.95)
+  - Ep 9: IDLE (ratio=0.960>0.95)
+  - Ep 12: IDLE (ratio=0.960>0.95)
+  - Ep 35: IDLE (ratio=0.980>0.95)
+  - Ep 37: IDLE (ratio=0.960>0.95)
+  - Ep 41: CRAZY_LC (lc_freq=2.42>2.0 Hz)
+  → Report saved to ./logs/ppo/baseline/seed_1024/hacking_report_sudden_brake.json
+  => CR=0.120 Spd=20.7 LC=15.1 SR=0.880 R=75.5±22.7
+
+==================================================
+[Eval] algo=ppo reward=baseline seed=1024 scene=high_density
+==================================================
+[WARNING] GrayscaleImage not available, falling back to OccupancyGrid.
+  Ep   0: R=   83.7 spd= 20.4 lc=97 crash=no
+  Ep   1: R=   -2.0 spd= 23.2 lc= 1 crash=YES
+  Ep   2: R=   89.6 spd= 21.9 lc=15 crash=no
+  Ep   3: R=   13.0 spd= 25.0 lc=11 crash=YES
+  Ep   4: R=   83.6 spd= 20.4 lc=62 crash=no
+  Ep   5: R=   82.8 spd= 20.1 lc=70 crash=no
+  Ep   6: R=   82.8 spd= 20.1 lc= 3 crash=no
+  Ep   7: R=   82.6 spd= 20.1 lc=26 crash=no
+  Ep   8: R=   82.6 spd= 20.1 lc=59 crash=no
+  Ep   9: R=   83.7 spd= 20.4 lc= 0 crash=no
+  Ep  10: R=   86.3 spd= 21.1 lc= 7 crash=no
+  Ep  11: R=   -3.3 spd= 23.4 lc= 5 crash=YES
+  Ep  12: R=   82.9 spd= 20.2 lc= 0 crash=no
+  Ep  13: R=   82.9 spd= 20.2 lc= 0 crash=no
+  Ep  14: R=   82.6 spd= 20.1 lc=58 crash=no
+  Ep  15: R=   82.8 spd= 20.1 lc=87 crash=no
+  Ep  16: R=   82.8 spd= 20.1 lc= 7 crash=no
+  Ep  17: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep  18: R=   85.2 spd= 20.8 lc= 8 crash=no
+  Ep  19: R=   83.9 spd= 20.4 lc= 1 crash=no
+  Ep  20: R=   84.0 spd= 20.5 lc= 3 crash=no
+  Ep  21: R=   86.3 spd= 21.1 lc=44 crash=no
+  Ep  22: R=   17.5 spd= 25.0 lc=14 crash=YES
+  Ep  23: R=   85.2 spd= 20.8 lc=55 crash=no
+  Ep  24: R=   82.8 spd= 20.1 lc=39 crash=no
+  Ep  25: R=   84.5 spd= 20.6 lc=59 crash=no
+  Ep  26: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  27: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep  28: R=   83.1 spd= 20.2 lc= 0 crash=no
+  Ep  29: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep  30: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  31: R=   82.6 spd= 20.1 lc= 0 crash=no
+  Ep  32: R=   82.6 spd= 20.1 lc=47 crash=no
+  Ep  33: R=   82.8 spd= 20.1 lc= 2 crash=no
+  Ep  34: R=   82.8 spd= 20.1 lc=39 crash=no
+  Ep  35: R=   84.7 spd= 20.7 lc= 2 crash=no
+  Ep  36: R=   84.9 spd= 20.7 lc= 2 crash=no
+  Ep  37: R=   82.8 spd= 20.1 lc= 3 crash=no
+  Ep  38: R=   83.7 spd= 20.4 lc=41 crash=no
+  Ep  39: R=   83.7 spd= 20.4 lc=97 crash=no
+  Ep  40: R=   -3.3 spd= 23.7 lc= 2 crash=YES
+  Ep  41: R=   83.7 spd= 20.4 lc= 3 crash=no
+  Ep  42: R=   83.2 spd= 20.2 lc= 3 crash=no
+  Ep  43: R=    1.0 spd= 25.0 lc= 3 crash=YES
+  Ep  44: R=   84.1 spd= 20.5 lc=22 crash=no
+  Ep  45: R=    6.0 spd= 24.9 lc= 6 crash=YES
+  Ep  46: R=   82.8 spd= 20.1 lc= 3 crash=no
+  Ep  47: R=   83.1 spd= 20.2 lc= 7 crash=no
+  Ep  48: R=   85.0 spd= 20.7 lc=21 crash=no
+  Ep  49: R=   82.6 spd= 20.1 lc= 0 crash=no
+
+[WARNING] Reward Hacking detected in scene=high_density: 11 flags
+  - Ep 0: CRAZY_LC (lc_freq=2.42>2.0 Hz)
+  - Ep 9: IDLE (ratio=0.955>0.95)
+  - Ep 15: CRAZY_LC (lc_freq=2.17>2.0 Hz)
+  - Ep 26: IDLE (ratio=0.975>0.95)
+  - Ep 28: IDLE (ratio=0.970>0.95)
+  - Ep 31: IDLE (ratio=0.960>0.95)
+  - Ep 33: IDLE (ratio=0.960>0.95)
+  - Ep 35: IDLE (ratio=0.980>0.95)
+  - Ep 39: CRAZY_LC (lc_freq=2.42>2.0 Hz)
+  - Ep 41: IDLE (ratio=0.960>0.95)
+  - Ep 46: IDLE (ratio=0.955>0.95)
+  → Report saved to ./logs/ppo/baseline/seed_1024/hacking_report_high_density.json
+  => CR=0.140 Spd=20.9 LC=20.8 SR=0.860 R=72.5±27.8
+
+[Eval] Summary saved to ./logs/ppo/baseline/seed_1024/eval_all.json

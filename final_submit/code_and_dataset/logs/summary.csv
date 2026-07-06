@@ -1,0 +1,11 @@
+algo,reward,seed,best_mean_reward,status
+dqn,baseline,42,7.49,done
+dqn,baseline,123,7.21,done
+dqn,baseline,456,6.47,done
+dqn,baseline,789,6.76,done
+dqn,baseline,1024,4.82,done
+dqn,comfort,42,3.7,done
+dqn,comfort,123,4.85,done
+dqn,comfort,456,6.49,done
+dqn,comfort,789,7.64,done
+dqn,comfort,1024,4.05,done

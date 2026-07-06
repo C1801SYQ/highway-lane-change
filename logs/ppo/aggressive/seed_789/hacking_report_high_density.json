@@ -1,0 +1,18 @@
+{
+  "warnings": [
+    "Ep 4: IDLE (ratio=0.965>0.95)",
+    "Ep 8: IDLE (ratio=0.970>0.95)",
+    "Ep 14: IDLE (ratio=0.980>0.95)",
+    "Ep 26: IDLE (ratio=0.960>0.95)",
+    "Ep 32: CRAZY_LC (lc_freq=2.05>2.0 Hz)",
+    "Ep 34: IDLE (ratio=0.980>0.95)",
+    "Ep 37: IDLE (ratio=0.980>0.95)",
+    "Ep 47: IDLE (ratio=0.965>0.95)",
+    "Ep 48: CRAZY_LC (lc_freq=3.17>2.0 Hz)"
+  ],
+  "flags": {
+    "turtle": 0,
+    "crazy_lc": 2,
+    "idle": 7
+  }
+}

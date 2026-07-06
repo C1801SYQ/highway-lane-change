@@ -1,0 +1,18 @@
+algo: PPO
+best_mean_reward: 4.7
+hyperparams:
+  batch_size: 64
+  clip_range: 0.2
+  ent_coef: 0.01
+  gae_lambda: 0.95
+  gamma: 0.8
+  learning_rate: 0.0003
+  n_epochs: 10
+  n_steps: 512
+  policy: MlpPolicy
+  vf_coef: 0.5
+policy: MlpPolicy
+reward_cfg: conservative
+seed: 1024
+total_steps: 50000
+use_grayscale: false

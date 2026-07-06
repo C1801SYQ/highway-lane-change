@@ -1,0 +1,14 @@
+{
+  "warnings": [
+    "Ep 6: IDLE (ratio=0.970>0.95)",
+    "Ep 9: IDLE (ratio=0.960>0.95)",
+    "Ep 12: IDLE (ratio=0.960>0.95)",
+    "Ep 35: IDLE (ratio=0.980>0.95)",
+    "Ep 37: IDLE (ratio=0.960>0.95)"
+  ],
+  "flags": {
+    "turtle": 0,
+    "crazy_lc": 0,
+    "idle": 5
+  }
+}

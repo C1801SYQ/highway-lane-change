@@ -1,0 +1,26 @@
+{
+  "warnings": [
+    "Ep 4: CRAZY_LC (lc_freq=4.97>2.0 Hz)",
+    "Ep 5: CRAZY_LC (lc_freq=2.48>2.0 Hz)",
+    "Ep 6: CRAZY_LC (lc_freq=3.10>2.0 Hz)",
+    "Ep 11: CRAZY_LC (lc_freq=3.17>2.0 Hz)",
+    "Ep 16: CRAZY_LC (lc_freq=2.38>2.0 Hz)",
+    "Ep 17: CRAZY_LC (lc_freq=2.58>2.0 Hz)",
+    "Ep 18: CRAZY_LC (lc_freq=2.88>2.0 Hz)",
+    "Ep 21: CRAZY_LC (lc_freq=2.12>2.0 Hz)",
+    "Ep 23: CRAZY_LC (lc_freq=4.72>2.0 Hz)",
+    "Ep 30: CRAZY_LC (lc_freq=4.15>2.0 Hz)",
+    "Ep 32: CRAZY_LC (lc_freq=2.05>2.0 Hz)",
+    "Ep 33: CRAZY_LC (lc_freq=2.17>2.0 Hz)",
+    "Ep 37: CRAZY_LC (lc_freq=2.62>2.0 Hz)",
+    "Ep 38: CRAZY_LC (lc_freq=2.15>2.0 Hz)",
+    "Ep 40: CRAZY_LC (lc_freq=2.10>2.0 Hz)",
+    "Ep 41: CRAZY_LC (lc_freq=4.97>2.0 Hz)",
+    "Ep 43: CRAZY_LC (lc_freq=3.67>2.0 Hz)"
+  ],
+  "flags": {
+    "turtle": 0,
+    "crazy_lc": 17,
+    "idle": 0
+  }
+}

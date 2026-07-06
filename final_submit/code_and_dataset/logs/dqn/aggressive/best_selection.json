@@ -1,0 +1,35 @@
+{
+  "algo": "dqn",
+  "reward_cfg": "aggressive",
+  "metric": "mean_reward",
+  "best_seed": 789,
+  "best_value": 6.59,
+  "best_model_path": "./logs/dqn/aggressive/seed_789/best_model.zip",
+  "all_results": [
+    {
+      "seed": 789,
+      "value": 6.59,
+      "model_path": "./logs/dqn/aggressive/seed_789/best_model.zip"
+    },
+    {
+      "seed": 1024,
+      "value": 6.49,
+      "model_path": "./logs/dqn/aggressive/seed_1024/best_model.zip"
+    },
+    {
+      "seed": 42,
+      "value": 6.01,
+      "model_path": "./logs/dqn/aggressive/seed_42/best_model.zip"
+    },
+    {
+      "seed": 123,
+      "value": 5.63,
+      "model_path": "./logs/dqn/aggressive/seed_123/best_model.zip"
+    },
+    {
+      "seed": 456,
+      "value": 5.09,
+      "model_path": "./logs/dqn/aggressive/seed_456/best_model.zip"
+    }
+  ]
+}

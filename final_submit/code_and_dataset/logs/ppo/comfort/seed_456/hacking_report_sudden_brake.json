@@ -1,0 +1,29 @@
+{
+  "warnings": [
+    "Ep 0: IDLE (ratio=0.995>0.95)",
+    "Ep 5: IDLE (ratio=0.980>0.95)",
+    "Ep 11: IDLE (ratio=0.985>0.95)",
+    "Ep 14: IDLE (ratio=1.000>0.95)",
+    "Ep 16: IDLE (ratio=0.985>0.95)",
+    "Ep 17: IDLE (ratio=0.995>0.95)",
+    "Ep 20: IDLE (ratio=1.000>0.95)",
+    "Ep 21: IDLE (ratio=1.000>0.95)",
+    "Ep 29: IDLE (ratio=1.000>0.95)",
+    "Ep 30: IDLE (ratio=1.000>0.95)",
+    "Ep 33: IDLE (ratio=0.985>0.95)",
+    "Ep 34: IDLE (ratio=0.960>0.95)",
+    "Ep 38: IDLE (ratio=0.968>0.95)",
+    "Ep 39: IDLE (ratio=0.990>0.95)",
+    "Ep 40: IDLE (ratio=0.970>0.95)",
+    "Ep 41: IDLE (ratio=1.000>0.95)",
+    "Ep 42: IDLE (ratio=1.000>0.95)",
+    "Ep 44: IDLE (ratio=1.000>0.95)",
+    "Ep 46: IDLE (ratio=1.000>0.95)",
+    "Ep 47: IDLE (ratio=0.965>0.95)"
+  ],
+  "flags": {
+    "turtle": 0,
+    "crazy_lc": 0,
+    "idle": 20
+  }
+}

@@ -1,0 +1,15 @@
+=== Parallel OOD Evaluation ===
+Concurrency: 10
+Episodes per scene: 50
+
+[RUN ] dqn / baseline / seed=42
+[RUN ] dqn / comfort / seed=789
+[RUN ] dqn / aggressive / seed=789
+[RUN ] dqn / balanced / seed=456
+[RUN ] dqn / conservative / seed=789
+[RUN ] ppo / baseline / seed=1024
+[RUN ] ppo / comfort / seed=456
+[RUN ] ppo / aggressive / seed=789
+[RUN ] ppo / balanced / seed=456
+[RUN ] ppo / conservative / seed=789
+=== ALL OOD EVALUATION DONE ===

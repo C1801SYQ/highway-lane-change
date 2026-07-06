@@ -1,0 +1,75 @@
+=== Resume parallel training ===
+Concurrency: 8
+
+[SKIP] dqn / baseline / seed=42 already done
+[SKIP] dqn / baseline / seed=123 already done
+[SKIP] dqn / baseline / seed=456 already done
+[SKIP] dqn / baseline / seed=789 already done
+[SKIP] dqn / baseline / seed=1024 already done
+[SKIP] dqn / comfort / seed=42 already done
+[SKIP] dqn / comfort / seed=123 already done
+[SKIP] dqn / comfort / seed=456 already done
+[SKIP] dqn / comfort / seed=789 already done
+[SKIP] dqn / comfort / seed=1024 already done
+[RUN ] dqn / aggressive / seed=42
+[RUN ] dqn / aggressive / seed=123
+[RUN ] dqn / aggressive / seed=456
+[RUN ] dqn / aggressive / seed=789
+[RUN ] dqn / aggressive / seed=1024
+[RUN ] dqn / balanced / seed=42
+[RUN ] dqn / balanced / seed=123
+[RUN ] dqn / balanced / seed=456
+=== Resume parallel training ===
+Concurrency: 24
+
+[SKIP] dqn / baseline / seed=42 already done
+[SKIP] dqn / baseline / seed=123 already done
+[SKIP] dqn / baseline / seed=456 already done
+[SKIP] dqn / baseline / seed=789 already done
+[SKIP] dqn / baseline / seed=1024 already done
+[SKIP] dqn / comfort / seed=42 already done
+[SKIP] dqn / comfort / seed=123 already done
+[SKIP] dqn / comfort / seed=456 already done
+[SKIP] dqn / comfort / seed=789 already done
+[SKIP] dqn / comfort / seed=1024 already done
+[RUN ] dqn / aggressive / seed=42
+[RUN ] dqn / aggressive / seed=123
+[RUN ] dqn / aggressive / seed=456
+[RUN ] dqn / aggressive / seed=789
+[RUN ] dqn / aggressive / seed=1024
+[RUN ] dqn / balanced / seed=42
+[RUN ] dqn / balanced / seed=123
+[RUN ] dqn / balanced / seed=456
+[RUN ] dqn / balanced / seed=789
+[RUN ] dqn / balanced / seed=1024
+[RUN ] dqn / conservative / seed=42
+[RUN ] dqn / conservative / seed=123
+[RUN ] dqn / conservative / seed=456
+[RUN ] dqn / conservative / seed=789
+[RUN ] dqn / conservative / seed=1024
+[RUN ] ppo / baseline / seed=42
+[RUN ] ppo / baseline / seed=123
+[RUN ] ppo / baseline / seed=456
+[RUN ] ppo / baseline / seed=789
+[RUN ] ppo / baseline / seed=1024
+[RUN ] ppo / comfort / seed=42
+[RUN ] ppo / comfort / seed=123
+[RUN ] ppo / comfort / seed=456
+[RUN ] ppo / comfort / seed=789
+[RUN ] ppo / comfort / seed=1024
+[RUN ] ppo / aggressive / seed=42
+[RUN ] ppo / aggressive / seed=123
+[RUN ] ppo / aggressive / seed=456
+[RUN ] ppo / aggressive / seed=789
+[RUN ] ppo / aggressive / seed=1024
+[SKIP] ppo / balanced / seed=42 already done
+[RUN ] ppo / balanced / seed=123
+[RUN ] ppo / balanced / seed=456
+[RUN ] ppo / balanced / seed=789
+[RUN ] ppo / balanced / seed=1024
+[RUN ] ppo / conservative / seed=42
+[RUN ] ppo / conservative / seed=123
+[RUN ] ppo / conservative / seed=456
+[RUN ] ppo / conservative / seed=789
+[RUN ] ppo / conservative / seed=1024
+=== ALL REMAINING TRAINING DONE ===

@@ -1,0 +1,7 @@
+{
+  "algo": "PPO",
+  "reward_cfg": "conservative",
+  "seed": 123,
+  "best_mean_reward": 4.88,
+  "success_rate": 1.0
+}

@@ -1,0 +1,15 @@
+{
+  "in_dist": {
+    "scene": "in_dist",
+    "algo": "dqn",
+    "reward_cfg": "baseline",
+    "seed": 42,
+    "n_episodes": 3,
+    "collision_rate": 0.0,
+    "mean_speed": 20.3,
+    "mean_lc": 0.0,
+    "success_rate": 1.0,
+    "mean_reward": 83.2,
+    "std_reward": 0.44
+  }
+}

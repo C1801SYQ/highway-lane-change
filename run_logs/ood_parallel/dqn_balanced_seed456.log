@@ -1,0 +1,226 @@
+
+==================================================
+[Eval] algo=dqn reward=balanced seed=456 scene=in_dist
+==================================================
+[WARNING] GrayscaleImage not available, falling back to OccupancyGrid.
+  Ep   0: R=    9.9 spd= 29.7 lc= 0 crash=YES
+  Ep   1: R=    2.7 spd= 29.6 lc= 0 crash=YES
+  Ep   2: R=    1.2 spd= 29.6 lc= 0 crash=YES
+  Ep   3: R=    3.8 spd= 29.7 lc= 0 crash=YES
+  Ep   4: R=   25.2 spd= 29.9 lc= 0 crash=YES
+  Ep   5: R=   17.7 spd= 29.8 lc= 0 crash=YES
+  Ep   6: R=   10.7 spd= 29.8 lc= 0 crash=YES
+  Ep   7: R=    1.6 spd= 29.6 lc= 0 crash=YES
+  Ep   8: R=   -6.9 spd= 28.7 lc= 0 crash=YES
+  Ep   9: R=    1.8 spd= 29.7 lc= 0 crash=YES
+  Ep  10: R=    6.3 spd= 29.7 lc= 0 crash=YES
+  Ep  11: R=    5.7 spd= 29.7 lc= 0 crash=YES
+  Ep  12: R=   10.0 spd= 29.8 lc= 0 crash=YES
+  Ep  13: R=   12.7 spd= 29.8 lc= 0 crash=YES
+  Ep  14: R=   -6.2 spd= 28.8 lc= 0 crash=YES
+  Ep  15: R=   15.8 spd= 29.8 lc= 0 crash=YES
+  Ep  16: R=    0.0 spd= 29.6 lc= 0 crash=YES
+  Ep  17: R=    4.1 spd= 29.6 lc= 0 crash=YES
+  Ep  18: R=   -0.2 spd= 29.6 lc= 0 crash=YES
+  Ep  19: R=    9.3 spd= 29.7 lc= 0 crash=YES
+  Ep  20: R=   -6.5 spd= 28.7 lc= 0 crash=YES
+  Ep  21: R=   -6.9 spd= 28.7 lc= 0 crash=YES
+  Ep  22: R=    2.9 spd= 29.6 lc= 0 crash=YES
+  Ep  23: R=    4.1 spd= 29.7 lc= 0 crash=YES
+  Ep  24: R=    0.6 spd= 29.6 lc= 0 crash=YES
+  Ep  25: R=   10.7 spd= 29.8 lc= 0 crash=YES
+  Ep  26: R=   33.2 spd= 29.9 lc= 0 crash=YES
+  Ep  27: R=    7.0 spd= 29.7 lc= 0 crash=YES
+  Ep  28: R=   -6.6 spd= 28.9 lc= 0 crash=YES
+  Ep  29: R=   -5.9 spd= 28.9 lc= 0 crash=YES
+  Ep  30: R=   -2.5 spd= 29.5 lc= 0 crash=YES
+  Ep  31: R=   -4.1 spd= 29.3 lc= 0 crash=YES
+  Ep  32: R=    4.0 spd= 29.6 lc= 0 crash=YES
+  Ep  33: R=    8.3 spd= 29.8 lc= 0 crash=YES
+  Ep  34: R=    3.4 spd= 29.7 lc= 0 crash=YES
+  Ep  35: R=    7.8 spd= 29.8 lc= 0 crash=YES
+  Ep  36: R=   14.4 spd= 29.8 lc= 0 crash=YES
+  Ep  37: R=   -1.2 spd= 29.5 lc= 0 crash=YES
+  Ep  38: R=   -3.1 spd= 29.3 lc= 0 crash=YES
+  Ep  39: R=    9.1 spd= 29.8 lc= 0 crash=YES
+  Ep  40: R=    2.0 spd= 29.6 lc= 0 crash=YES
+  Ep  41: R=   -2.5 spd= 29.4 lc= 0 crash=YES
+  Ep  42: R=   -6.8 spd= 28.5 lc= 0 crash=YES
+  Ep  43: R=    1.7 spd= 29.6 lc= 0 crash=YES
+  Ep  44: R=   -1.9 spd= 29.3 lc= 0 crash=YES
+  Ep  45: R=    1.6 spd= 29.6 lc= 0 crash=YES
+  Ep  46: R=   -6.5 spd= 28.7 lc= 0 crash=YES
+  Ep  47: R=   14.9 spd= 29.8 lc= 0 crash=YES
+  Ep  48: R=   32.8 spd= 29.9 lc= 0 crash=YES
+  Ep  49: R=   11.0 spd= 29.8 lc= 0 crash=YES
+  => CR=1.000 Spd=29.5 LC=0.0 SR=0.000 R=4.8±9.2
+
+==================================================
+[Eval] algo=dqn reward=balanced seed=456 scene=lane_closure
+==================================================
+[WARNING] GrayscaleImage not available, falling back to OccupancyGrid.
+  Ep   0: R=    9.9 spd= 29.7 lc= 0 crash=YES
+  Ep   1: R=    2.7 spd= 29.6 lc= 0 crash=YES
+  Ep   2: R=    1.2 spd= 29.6 lc= 0 crash=YES
+  Ep   3: R=    3.8 spd= 29.7 lc= 0 crash=YES
+  Ep   4: R=   25.2 spd= 29.9 lc= 0 crash=YES
+  Ep   5: R=   17.7 spd= 29.8 lc= 0 crash=YES
+  Ep   6: R=   10.7 spd= 29.8 lc= 0 crash=YES
+  Ep   7: R=    1.6 spd= 29.6 lc= 0 crash=YES
+  Ep   8: R=   -6.9 spd= 28.7 lc= 0 crash=YES
+  Ep   9: R=    1.8 spd= 29.7 lc= 0 crash=YES
+  Ep  10: R=    6.3 spd= 29.7 lc= 0 crash=YES
+  Ep  11: R=    5.7 spd= 29.7 lc= 0 crash=YES
+  Ep  12: R=   10.0 spd= 29.8 lc= 0 crash=YES
+  Ep  13: R=   12.7 spd= 29.8 lc= 0 crash=YES
+  Ep  14: R=   -6.2 spd= 28.8 lc= 0 crash=YES
+  Ep  15: R=   15.8 spd= 29.8 lc= 0 crash=YES
+  Ep  16: R=    0.0 spd= 29.6 lc= 0 crash=YES
+  Ep  17: R=    4.1 spd= 29.6 lc= 0 crash=YES
+  Ep  18: R=   -0.2 spd= 29.6 lc= 0 crash=YES
+  Ep  19: R=    9.3 spd= 29.7 lc= 0 crash=YES
+  Ep  20: R=   -6.5 spd= 28.7 lc= 0 crash=YES
+  Ep  21: R=   -6.9 spd= 28.7 lc= 0 crash=YES
+  Ep  22: R=    2.9 spd= 29.6 lc= 0 crash=YES
+  Ep  23: R=    4.1 spd= 29.7 lc= 0 crash=YES
+  Ep  24: R=    0.6 spd= 29.6 lc= 0 crash=YES
+  Ep  25: R=   10.7 spd= 29.8 lc= 0 crash=YES
+  Ep  26: R=   33.2 spd= 29.9 lc= 0 crash=YES
+  Ep  27: R=    7.0 spd= 29.7 lc= 0 crash=YES
+  Ep  28: R=   -6.6 spd= 28.9 lc= 0 crash=YES
+  Ep  29: R=   -5.9 spd= 28.9 lc= 0 crash=YES
+  Ep  30: R=   -2.5 spd= 29.5 lc= 0 crash=YES
+  Ep  31: R=   -4.1 spd= 29.3 lc= 0 crash=YES
+  Ep  32: R=    4.0 spd= 29.6 lc= 0 crash=YES
+  Ep  33: R=    8.3 spd= 29.8 lc= 0 crash=YES
+  Ep  34: R=    3.4 spd= 29.7 lc= 0 crash=YES
+  Ep  35: R=    7.8 spd= 29.8 lc= 0 crash=YES
+  Ep  36: R=   14.4 spd= 29.8 lc= 0 crash=YES
+  Ep  37: R=   -1.2 spd= 29.5 lc= 0 crash=YES
+  Ep  38: R=   -3.1 spd= 29.3 lc= 0 crash=YES
+  Ep  39: R=    9.1 spd= 29.8 lc= 0 crash=YES
+  Ep  40: R=    2.0 spd= 29.6 lc= 0 crash=YES
+  Ep  41: R=   -2.5 spd= 29.4 lc= 0 crash=YES
+  Ep  42: R=   -6.8 spd= 28.5 lc= 0 crash=YES
+  Ep  43: R=    1.7 spd= 29.6 lc= 0 crash=YES
+  Ep  44: R=   -1.9 spd= 29.3 lc= 0 crash=YES
+  Ep  45: R=    1.6 spd= 29.6 lc= 0 crash=YES
+  Ep  46: R=   -6.5 spd= 28.7 lc= 0 crash=YES
+  Ep  47: R=   14.9 spd= 29.8 lc= 0 crash=YES
+  Ep  48: R=   32.8 spd= 29.9 lc= 0 crash=YES
+  Ep  49: R=   11.0 spd= 29.8 lc= 0 crash=YES
+  => CR=1.000 Spd=29.5 LC=0.0 SR=0.000 R=4.8±9.2
+
+==================================================
+[Eval] algo=dqn reward=balanced seed=456 scene=sudden_brake
+==================================================
+[WARNING] GrayscaleImage not available, falling back to OccupancyGrid.
+  Ep   0: R=    9.9 spd= 29.7 lc= 0 crash=YES
+  Ep   1: R=    2.7 spd= 29.6 lc= 0 crash=YES
+  Ep   2: R=    1.2 spd= 29.6 lc= 0 crash=YES
+  Ep   3: R=    3.8 spd= 29.7 lc= 0 crash=YES
+  Ep   4: R=   25.2 spd= 29.9 lc= 0 crash=YES
+  Ep   5: R=   17.7 spd= 29.8 lc= 0 crash=YES
+  Ep   6: R=   10.7 spd= 29.8 lc= 0 crash=YES
+  Ep   7: R=    1.6 spd= 29.6 lc= 0 crash=YES
+  Ep   8: R=   -6.9 spd= 28.7 lc= 0 crash=YES
+  Ep   9: R=    1.8 spd= 29.7 lc= 0 crash=YES
+  Ep  10: R=    6.3 spd= 29.7 lc= 0 crash=YES
+  Ep  11: R=    5.7 spd= 29.7 lc= 0 crash=YES
+  Ep  12: R=   10.0 spd= 29.8 lc= 0 crash=YES
+  Ep  13: R=   12.7 spd= 29.8 lc= 0 crash=YES
+  Ep  14: R=   -6.2 spd= 28.8 lc= 0 crash=YES
+  Ep  15: R=   15.8 spd= 29.8 lc= 0 crash=YES
+  Ep  16: R=    0.0 spd= 29.6 lc= 0 crash=YES
+  Ep  17: R=    4.1 spd= 29.6 lc= 0 crash=YES
+  Ep  18: R=   -0.2 spd= 29.6 lc= 0 crash=YES
+  Ep  19: R=    9.3 spd= 29.7 lc= 0 crash=YES
+  Ep  20: R=   -6.5 spd= 28.7 lc= 0 crash=YES
+  Ep  21: R=   -6.9 spd= 28.7 lc= 0 crash=YES
+  Ep  22: R=    2.9 spd= 29.6 lc= 0 crash=YES
+  Ep  23: R=    4.1 spd= 29.7 lc= 0 crash=YES
+  Ep  24: R=    0.6 spd= 29.6 lc= 0 crash=YES
+  Ep  25: R=   10.7 spd= 29.8 lc= 0 crash=YES
+  Ep  26: R=   33.2 spd= 29.9 lc= 0 crash=YES
+  Ep  27: R=    7.0 spd= 29.7 lc= 0 crash=YES
+  Ep  28: R=   -6.6 spd= 28.9 lc= 0 crash=YES
+  Ep  29: R=   -5.9 spd= 28.9 lc= 0 crash=YES
+  Ep  30: R=   -2.5 spd= 29.5 lc= 0 crash=YES
+  Ep  31: R=   -4.1 spd= 29.3 lc= 0 crash=YES
+  Ep  32: R=    4.0 spd= 29.6 lc= 0 crash=YES
+  Ep  33: R=    8.3 spd= 29.8 lc= 0 crash=YES
+  Ep  34: R=    3.4 spd= 29.7 lc= 0 crash=YES
+  Ep  35: R=    7.8 spd= 29.8 lc= 0 crash=YES
+  Ep  36: R=   14.4 spd= 29.8 lc= 0 crash=YES
+  Ep  37: R=   -1.2 spd= 29.5 lc= 0 crash=YES
+  Ep  38: R=   -3.1 spd= 29.3 lc= 0 crash=YES
+  Ep  39: R=    9.1 spd= 29.8 lc= 0 crash=YES
+  Ep  40: R=    2.0 spd= 29.6 lc= 0 crash=YES
+  Ep  41: R=   -2.5 spd= 29.4 lc= 0 crash=YES
+  Ep  42: R=   -6.8 spd= 28.5 lc= 0 crash=YES
+  Ep  43: R=    1.7 spd= 29.6 lc= 0 crash=YES
+  Ep  44: R=   -1.9 spd= 29.3 lc= 0 crash=YES
+  Ep  45: R=    1.6 spd= 29.6 lc= 0 crash=YES
+  Ep  46: R=   -6.5 spd= 28.7 lc= 0 crash=YES
+  Ep  47: R=   14.9 spd= 29.8 lc= 0 crash=YES
+  Ep  48: R=   32.8 spd= 29.9 lc= 0 crash=YES
+  Ep  49: R=   11.0 spd= 29.8 lc= 0 crash=YES
+  => CR=1.000 Spd=29.5 LC=0.0 SR=0.000 R=4.8±9.2
+
+==================================================
+[Eval] algo=dqn reward=balanced seed=456 scene=high_density
+==================================================
+[WARNING] GrayscaleImage not available, falling back to OccupancyGrid.
+  Ep   0: R=    4.2 spd= 29.7 lc= 0 crash=YES
+  Ep   1: R=    2.8 spd= 29.7 lc= 0 crash=YES
+  Ep   2: R=    1.4 spd= 29.7 lc= 0 crash=YES
+  Ep   3: R=    3.0 spd= 29.7 lc= 0 crash=YES
+  Ep   4: R=   -3.4 spd= 29.3 lc= 0 crash=YES
+  Ep   5: R=    0.6 spd= 29.6 lc= 0 crash=YES
+  Ep   6: R=   20.1 spd= 29.9 lc= 0 crash=YES
+  Ep   7: R=   -2.4 spd= 29.3 lc= 0 crash=YES
+  Ep   8: R=   11.8 spd= 29.8 lc= 0 crash=YES
+  Ep   9: R=   16.2 spd= 29.9 lc= 0 crash=YES
+  Ep  10: R=    1.8 spd= 29.7 lc= 0 crash=YES
+  Ep  11: R=   -4.6 spd= 29.0 lc= 0 crash=YES
+  Ep  12: R=    5.3 spd= 29.7 lc= 0 crash=YES
+  Ep  13: R=   17.8 spd= 29.8 lc= 0 crash=YES
+  Ep  14: R=   -6.6 spd= 28.9 lc= 0 crash=YES
+  Ep  15: R=    1.3 spd= 29.7 lc= 0 crash=YES
+  Ep  16: R=   -0.5 spd= 29.5 lc= 0 crash=YES
+  Ep  17: R=   -6.3 spd= 28.9 lc= 0 crash=YES
+  Ep  18: R=    4.9 spd= 29.7 lc= 0 crash=YES
+  Ep  19: R=   10.6 spd= 29.8 lc= 0 crash=YES
+  Ep  20: R=    3.4 spd= 29.7 lc= 0 crash=YES
+  Ep  21: R=    9.4 spd= 29.7 lc= 0 crash=YES
+  Ep  22: R=   13.1 spd= 29.8 lc= 0 crash=YES
+  Ep  23: R=   -2.5 spd= 29.4 lc= 0 crash=YES
+  Ep  24: R=    2.5 spd= 29.6 lc= 0 crash=YES
+  Ep  25: R=    2.9 spd= 29.6 lc= 0 crash=YES
+  Ep  26: R=   -1.2 spd= 29.5 lc= 0 crash=YES
+  Ep  27: R=   10.8 spd= 29.8 lc= 0 crash=YES
+  Ep  28: R=   -2.5 spd= 29.5 lc= 0 crash=YES
+  Ep  29: R=   14.4 spd= 29.8 lc= 0 crash=YES
+  Ep  30: R=   -1.1 spd= 29.6 lc= 0 crash=YES
+  Ep  31: R=   22.2 spd= 29.8 lc= 0 crash=YES
+  Ep  32: R=   26.9 spd= 29.9 lc= 0 crash=YES
+  Ep  33: R=    2.1 spd= 29.7 lc= 0 crash=YES
+  Ep  34: R=   10.3 spd= 29.8 lc= 0 crash=YES
+  Ep  35: R=    6.5 spd= 29.8 lc= 0 crash=YES
+  Ep  36: R=    2.2 spd= 29.6 lc= 0 crash=YES
+  Ep  37: R=   -3.4 spd= 29.2 lc= 0 crash=YES
+  Ep  38: R=   -1.5 spd= 29.5 lc= 0 crash=YES
+  Ep  39: R=    0.6 spd= 29.6 lc= 0 crash=YES
+  Ep  40: R=    6.9 spd= 29.7 lc= 0 crash=YES
+  Ep  41: R=   15.6 spd= 29.8 lc= 0 crash=YES
+  Ep  42: R=    2.9 spd= 29.6 lc= 0 crash=YES
+  Ep  43: R=    5.6 spd= 29.8 lc= 0 crash=YES
+  Ep  44: R=   -2.7 spd= 29.3 lc= 0 crash=YES
+  Ep  45: R=   -6.2 spd= 28.8 lc= 0 crash=YES
+  Ep  46: R=    0.3 spd= 29.6 lc= 0 crash=YES
+  Ep  47: R=   18.9 spd= 29.8 lc= 0 crash=YES
+  Ep  48: R=    5.6 spd= 29.8 lc= 0 crash=YES
+  Ep  49: R=   -2.0 spd= 29.5 lc= 0 crash=YES
+  => CR=1.000 Spd=29.6 LC=0.0 SR=0.000 R=4.8±7.9
+
+[Eval] Summary saved to ./logs/dqn/balanced/seed_456/eval_all.json

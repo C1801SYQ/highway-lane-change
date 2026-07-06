@@ -1,0 +1,7 @@
+{
+  "algo": "DQN",
+  "reward_cfg": "balanced",
+  "seed": 789,
+  "best_mean_reward": 4.6,
+  "success_rate": 0.5
+}

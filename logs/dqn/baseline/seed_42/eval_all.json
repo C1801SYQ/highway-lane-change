@@ -1,0 +1,54 @@
+{
+  "in_dist": {
+    "scene": "in_dist",
+    "algo": "dqn",
+    "reward_cfg": "baseline",
+    "seed": 42,
+    "n_episodes": 50,
+    "collision_rate": 0.94,
+    "mean_speed": 25.35,
+    "mean_lc": 66.5,
+    "success_rate": 0.06,
+    "mean_reward": 24.04,
+    "std_reward": 22.27
+  },
+  "lane_closure": {
+    "scene": "lane_closure",
+    "algo": "dqn",
+    "reward_cfg": "baseline",
+    "seed": 42,
+    "n_episodes": 50,
+    "collision_rate": 0.94,
+    "mean_speed": 25.35,
+    "mean_lc": 66.5,
+    "success_rate": 0.06,
+    "mean_reward": 24.04,
+    "std_reward": 22.27
+  },
+  "sudden_brake": {
+    "scene": "sudden_brake",
+    "algo": "dqn",
+    "reward_cfg": "baseline",
+    "seed": 42,
+    "n_episodes": 50,
+    "collision_rate": 0.94,
+    "mean_speed": 25.35,
+    "mean_lc": 66.48,
+    "success_rate": 0.06,
+    "mean_reward": 24.04,
+    "std_reward": 22.27
+  },
+  "high_density": {
+    "scene": "high_density",
+    "algo": "dqn",
+    "reward_cfg": "baseline",
+    "seed": 42,
+    "n_episodes": 50,
+    "collision_rate": 0.94,
+    "mean_speed": 25.45,
+    "mean_lc": 72.8,
+    "success_rate": 0.06,
+    "mean_reward": 26.74,
+    "std_reward": 22.82
+  }
+}

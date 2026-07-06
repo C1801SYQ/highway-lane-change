@@ -1,0 +1,7 @@
+{
+  "algo": "PPO",
+  "reward_cfg": "comfort",
+  "seed": 42,
+  "best_mean_reward": 8.63,
+  "success_rate": 1.0
+}

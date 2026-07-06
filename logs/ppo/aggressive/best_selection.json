@@ -1,0 +1,35 @@
+{
+  "algo": "ppo",
+  "reward_cfg": "aggressive",
+  "metric": "mean_reward",
+  "best_seed": 789,
+  "best_value": 9.77,
+  "best_model_path": "./logs/ppo/aggressive/seed_789/best_model.zip",
+  "all_results": [
+    {
+      "seed": 789,
+      "value": 9.77,
+      "model_path": "./logs/ppo/aggressive/seed_789/best_model.zip"
+    },
+    {
+      "seed": 42,
+      "value": 9.18,
+      "model_path": "./logs/ppo/aggressive/seed_42/best_model.zip"
+    },
+    {
+      "seed": 1024,
+      "value": 8.8,
+      "model_path": "./logs/ppo/aggressive/seed_1024/best_model.zip"
+    },
+    {
+      "seed": 456,
+      "value": 8.76,
+      "model_path": "./logs/ppo/aggressive/seed_456/best_model.zip"
+    },
+    {
+      "seed": 123,
+      "value": 8.74,
+      "model_path": "./logs/ppo/aggressive/seed_123/best_model.zip"
+    }
+  ]
+}
