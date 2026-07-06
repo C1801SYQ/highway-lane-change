@@ -1,0 +1,15 @@
+{
+  "high_density": {
+    "scene": "high_density",
+    "algo": "dqn",
+    "reward_cfg": "baseline",
+    "seed": 42,
+    "n_episodes": 2,
+    "collision_rate": 0.5,
+    "mean_speed": 20.93,
+    "mean_lc": 0.0,
+    "success_rate": 0.5,
+    "mean_reward": 53.34,
+    "std_reward": 33.21
+  }
+}

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Midterm build artifacts
+_midterm_build/
+
+# TensorBoard events (large binary files)
+**/events.out.*
+
+# Videos
+videos/
+
+# Large binary models
+*.zip
+*.pkl

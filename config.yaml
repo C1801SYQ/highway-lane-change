@@ -1,0 +1,133 @@
+# ============================================================
+# file: config.yaml
+# 单一事实源 — 所有超参数、路径、reward权重从这里读取
+# ============================================================
+
+# --- 环境冻结配置 ---
+env:
+  id: "highway-fast-v0"
+  lanes_count: 4
+  vehicles_count: 30
+  duration: 40                     # 秒
+  initial_spacing: 2               # 秒
+  simulation_frequency: 15         # Hz
+  policy_frequency: 5              # Hz
+  offroad_terminal: true
+  # 全部内置 reward 置零，完全用自定义 reward
+  collision_reward: 0.0
+  right_lane_reward: 0.0
+  high_speed_reward: 0.0
+  lane_change_reward: 0.0
+  normalize_reward: false
+
+# --- 观测方案（含 fallback）---
+observation:
+  primary: "GrayscaleImage"
+  shape: [84, 84]
+  stack_size: 4
+  fallback: "OccupancyGrid"
+  fallback_shape: [16, 16]
+  fallback_features: ["presence", "vx", "vy"]
+
+# --- 动作空间 ---
+action:
+  type: "DiscreteMetaAction"
+  n: 5
+  labels: ["LANE_LEFT", "IDLE", "LANE_RIGHT", "FASTER", "SLOWER"]
+
+# --- 随机种子 ---
+seeds: [42, 123, 456, 789, 1024]
+
+# --- 训练默认值 ---
+training:
+  total_timesteps: 50000
+  eval_freq: 5000
+  eval_episodes: 10
+  log_dir: "./logs"
+  model_dir: "./models"
+  video_dir: "./videos"
+  figure_dir: "./figures"
+
+# --- 速度奖励高斯参数 ---
+speed_reward:
+  target: 25.0                    # m/s
+  sigma: 8.0                     # 高斯宽度
+
+# --- 超参数 ---
+hyperparams:
+  dqn:
+    policy: "CnnPolicy"           # 与 GrayscaleImage 匹配；fallback 时自动切 MlpPolicy
+    learning_rate: 0.0005
+    buffer_size: 50000
+    learning_starts: 1000
+    batch_size: 64
+    tau: 0.005
+    gamma: 0.8
+    train_freq: 4
+    gradient_steps: 1
+    target_update_interval: 1000
+    exploration_fraction: 0.3
+    exploration_initial_eps: 1.0
+    exploration_final_eps: 0.05
+  ppo:
+    policy: "CnnPolicy"
+    learning_rate: 0.0003
+    n_steps: 512
+    batch_size: 64
+    n_epochs: 10
+    gamma: 0.8
+    gae_lambda: 0.95
+    clip_range: 0.2
+    ent_coef: 0.01
+    vf_coef: 0.5
+
+# --- 奖励权重配置 ---
+reward:
+  baseline:
+    w_collision: -10.0
+    w_high_speed: 0.5
+    w_right_lane: 0.0
+    w_lane_change: 0.0
+    w_accel_penalty: 0.0
+  comfort:
+    w_collision: -10.0
+    w_high_speed: 0.5
+    w_right_lane: 0.0
+    w_lane_change: -0.3
+    w_accel_penalty: -0.1
+  aggressive:
+    w_collision: -5.0
+    w_high_speed: 1.0
+    w_right_lane: 0.0
+    w_lane_change: -0.05
+    w_accel_penalty: 0.0
+  balanced:
+    w_collision: -10.0
+    w_high_speed: 0.5
+    w_right_lane: 0.0
+    w_lane_change: -0.3
+    w_accel_penalty: -0.1
+  conservative:
+    w_collision: -20.0
+    w_high_speed: 0.2
+    w_right_lane: 0.3
+    w_lane_change: -0.8
+    w_accel_penalty: -0.3
+
+# --- OOD 场景参数 ---
+ood:
+  lane_closure:
+    closure_lanes: [0, 1]
+    closure_start: 180
+    closure_length: 30
+  sudden_brake:
+    brake_time: 20.0
+    deceleration: -8.0
+    brake_vehicle_idx: 3
+    brake_duration: 3.0
+  high_density:
+    vehicles_count: 50
+    initial_spacing: 1.0
+  domain_rand:
+    vehicles_range: [20, 50]
+    spacing_range: [0.8, 2.5]

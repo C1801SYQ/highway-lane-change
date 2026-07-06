@@ -1,0 +1,6 @@
+{
+  "algo": "DQN",
+  "reward_cfg": "baseline",
+  "seed": 42,
+  "best_mean_reward": -Infinity
+}
